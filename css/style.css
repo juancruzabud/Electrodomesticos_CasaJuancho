@@ -1,0 +1,768 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Grilla {
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,36,121,1) 42%, rgba(6,67,160,1) 73%, rgba(0,212,255,1) 100%);   
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: .5fr repeat(2, 1fr) .5fr ;
+    grid-template-columns: .5fr repeat(3,1fr);
+    grid-template-areas: "header header header header"
+                        "nav main main main"
+                        "nav main main main"
+                        "footer footer footer footer";
+    grid-column-gap: .5em; color: white;
+    grid-row-gap: .5em ; color: white;
+    
+
+
+}
+
+
+
+
+
+
+header {
+   
+    grid-area: header;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,36,121,1) 42%, rgba(6,67,160,1) 73%, rgba(0,212,255,1) 100%);
+    display: grid;
+    width: 100%;
+    
+   
+
+  }
+ 
+  /* .LogoUno:hover {
+    transform: scale(2);
+    transition: transform 5s; */
+   
+    
+    
+  
+  .ListaUnos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ListaUno {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+    
+    
+}
+
+header nav div{
+    color: white;
+    margin: 20px;
+   
+}
+.IntUno {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+
+.IntDos{
+    color: white;
+margin-right: 20px;
+text-decoration: none;
+
+}
+.IntTres {
+    color: white;
+margin-right: 20px;
+text-decoration: none;
+
+}
+.IntCuatro{ 
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+.IntCinco{
+    color: white;
+    text-decoration: none;
+   
+}
+.BuscarUno{
+    margin-left: 85%;
+    color: white;
+}
+.BuscarDos{
+    margin-left: 80%;
+    color: white;
+}
+
+.UbicacionPrincipal {
+    color: white;
+    
+}
+
+.MapsUno {
+    margin-left: 200px;
+}
+.ParrafoDiez {
+    margin-top: 50px;
+    font-size:large;
+    margin-left: 10px;
+}
+.TituloOne{margin-left: 10px;}
+main{
+    
+    grid-area: main;
+   width: 100%;
+   
+   
+   
+    background: linear-gradient(90deg, rgba(252,100,2,1) 0%, rgba(9,36,121,1) 42%, rgba(6,67,160,1) 73%, rgba(0,212,255,1) 100%); 
+   display: flex;
+
+    
+}
+
+.MainTres{
+    display:block
+}
+
+
+.ImagenUno {
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+}
+
+
+.VideoUno {
+margin-left:100px;
+margin-top: 100px;
+width: 700px;
+
+}
+.FormularioUno {
+    margin-left: 50px;
+    color: white;
+    padding: 30px;
+    font-size:x-large
+    
+
+   
+}
+
+.IconoUno {
+   margin-top: 80px;
+    margin-left: 150px;
+    color: white;
+}
+    
+.ParrafoUno {
+margin-left: 140px;
+color: white;
+}
+.ParrafoDos {
+    margin-left:  140px; ;
+    color: white;
+} 
+.IconoDos {
+    margin-left: 450px;
+
+}
+.ParrafoTres {
+    margin-left: 440px;
+    color: white;
+}
+.ParrafoCuatro {
+    margin-left: 440px;
+    color: white;
+}
+
+
+
+
+
+.IconoTres {
+    margin-left: 750px;
+}
+
+.ParrafoCinco {
+    margin-left: 750px;
+    color: white;
+}
+.ParrafoSeis {
+    margin-left: 720px;
+    color: white;
+
+} 
+
+
+ .IconoCuatro {
+    margin-left: 1100px;
+}
+
+.ParrafoSiete { 
+    margin-left: 1040px;
+    color: white;
+
+}
+.UbicacionPrincipal {
+    margin-left: 150px;
+    color: white;
+    
+    }
+    
+    .MapsUno {
+        margin-top: 60px;
+        
+        
+    }
+    .LavarropasUno {
+        
+        margin-left: 200px;
+        margin-top: 40px
+        
+        
+    }
+    .HeladeraUno {
+    margin-left: 200px;
+    }
+    .SecarropaUno{
+        margin-left: 200px;
+    }
+    .CaloventorUno{
+        margin-left: 200px;
+    }
+    .AireUno{
+        margin-left: 200px;
+    }
+    .FreezerUno{
+        margin-left: 200px;
+        margin-top: 100px;
+    } 
+    .CocinaTres {
+        margin-left: 200px;
+    }
+    .EstufaDos {
+        margin-left: 200px;
+    }
+
+    
+
+
+
+
+/* NAVEGACIOOOOOOOOOOOOOOOOOOOOOOOOOON */
+
+
+
+
+.menu-horizontal{
+    list-style: none;
+    display: grid;
+    justify-content: space-around;
+    margin: 30px;
+   
+}
+.CategiriasUno{
+    margin: 30px;
+    margin-right: 50px;
+    color: white;
+    
+}
+.menu-vertical{
+    margin: 20px;
+    text-decoration: none;
+    display: grid;
+}
+
+.TecnoUno{
+    text-decoration: none;
+    color: white;
+}
+.CeluUno{
+    text-decoration: none;
+    color: white;
+}
+.TabletUno{
+    text-decoration: none;
+    color: white;
+}
+.TelefonoUno{
+    text-decoration: none;
+    color: white;
+}
+.ElectroUno{
+    text-decoration: none;
+    color: white;
+
+    
+}
+.CocinaUno{
+    text-decoration: none;
+    color: white;
+}
+.LavadoUno{
+    text-decoration: none;
+    color: white;
+}
+.ClimaUno{
+    text-decoration: none;
+    color: white;
+}
+.CalefUno{
+    text-decoration: none;
+    color: white;
+}
+.VentiUno{
+    text-decoration: none;
+    color: white;
+}
+.AiresUno{
+    text-decoration: none;
+    color: white;
+}
+
+
+.HeladerasUno{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.MainUno {
+    display: flex;
+}
+
+.HistoriaUnos {
+    color: white;
+    margin-left: 130px;
+
+}
+.ContenidoUno {
+    color: white;
+    font-size: x-large;
+    margin-top: 3%;
+    
+}
+.ElectroUno {
+    
+    margin-top: 5%;
+
+}
+.TituloPrimero{
+    color: white
+}
+.TituloSegundo{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    
+
+   grid-area: footer;
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,36,121,1) 42%, rgba(6,67,160,1) 73%, rgba(0,212,255,1) 100%);
+
+}
+.FiguraUno{
+    margin-left: 85%;
+}
+
+.FiguraDos {
+    margin-left: 10px;
+ }
+.FiguraTres {
+    margin-left: 10px;
+  }
+.FiguraCuatro {
+        margin-left: 10px;
+  }
+
+
+  .BodyUno {
+    width:100vw ;
+    height: 100vh;
+  }
+.ElectroUnos {
+    margin-bottom: 30px;
+    margin-left: 33%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+.VideoUno { display: none;    }
+.FiguraCuatro { display: none;}
+.ContenidoUno {font-size:small;}
+.BuscarDos{display: none;}
+.ImagenUno {margin-left: 200px;}
+.CocinaTres {display: none;}
+.EstufaDos {display: none;}
+.LavarropasUno{ margin-top: 100px;}
+.AireUno { display: none;}
+.FreezerUno {display: none;}
+.FormularioUno { margin-right: 100px;}
+.ParrafoUno { display: none;}
+    .ParrafoCinco{ display: none;}
+    .ParrafoCuatro{ display: none;}
+    .ParrafoTres{ display: none;}
+    .ParrafoSeis{ display: none;}
+    .ParrafoSiete{ display: none;}
+    .ParrafoDos{ display: none;}
+    .IconoTres { display: none;}
+    .IconoCuatro {display: none;}
+    .IconoDos {display: none;}
+    .IconoUno{display: none;}
+    
+}
+#Grilla {grid-template-rows: .5fr repeat(2, 1fr) .5fr ;
+grid-template-columns: .5fr repeat(3,1fr);
+grid-template-areas: "header header header header"
+                    "nav main main main"
+                    "nav main main main"
+                    "footer footer footer footer";
+                    background-color: rgba(191, 32, 32, 0.501);
+
+    }
+
+
+
+@media only screen and (max-width: 768px )
+ {
+   {background-color:rgb(21, 224, 35);}
+.FiguraTres {display: none;}
+.ImagenUno { margin: 50px; width: 440px;}
+.BuscarDos{display: none;}
+.ElectroUnos {  width: 600px; margin: 70px;}
+.FiguraDos { display: none;}
+.ContenidoUno {font-size:small;}
+ .CocinaTres {display: none;}
+.HeladerasUno {margin-top: 100px;}
+.MapsUno {height:400px; width: 300;}
+
+    .SecarropaUno{display: none;}
+    .CaloventorUno{display: none;}
+    .AireUno{display: none;}
+    
+     .FormularioUno { margin-right: 100px; height: 400px; width: 400px;} 
+    .FiguraTres {display: none;}
+    .IconoTres { display: none;}
+    .IconoCuatro {display: none;}
+    .IconoDos {display: none;}
+    .IconoUno{display: none;}
+    .ParrafoUno { display: none;}
+    .ParrafoCinco{ display: none;}
+    .ParrafoCuatro{ display: none;}
+    .ParrafoTres{ display: none;}
+    .ParrafoSeis{ display: none;}
+    .ParrafoSiete{ display: none;}
+    .ParrafoDos{ display: none;}
+#Grilla {grid-template-rows: .5fr repeat(2, 1fr) .5fr ;
+grid-template-columns: .5fr repeat(3,1fr);
+grid-template-areas: "header header header header"
+                    "nav main main main"
+                    "nav main main main"
+                    "footer footer footer footer";
+                    background-color:rgb(21, 224, 35);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 468px) {
+    
+    .FiguraDos {display: none;}
+    .ImagenUno {width: 200px;}
+    .BuscarDos{display: none;}
+    .LogoUno {display: none;}
+    .ElectroUnos{ width: 350px;}
+    .ContenidoUno {font-size:small;}
+    .CocinaTres {display: none;}
+    .HeladeraUno {display: none;}
+        .SecarropaUno{display: none;}
+        .CaloventorUno{display: none;}
+        .AireUno{display: none;}
+        .LavarropasUno {display: none;
+        }
+        .FreezerUno { display: none;}
+        /* .NavUno { margin-left: 150px;} */
+        .MapsUno{ margin-left: 100px;
+        height: 200px;
+        width: 200px;}
+        .ParrafoDiez {
+            ;
+        }
+    #Grilla {grid-template-rows: .5fr repeat(2, 1fr) .5fr ;
+    grid-template-columns: .5fr repeat(3,1fr);
+    grid-template-areas: "header header header header"
+                        "nav main main main"
+                        "nav main main main"
+                        "footer footer footer footer";
+                        background-color: rgb(20, 196, 172);
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS DE HEADER */
+
+
+
+/* header {
+    background-color: rgba(0, 19, 160, 0.83);
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+}
+
+.TituloMayor {
+    color: white;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+.TituloMenor {
+    color: white;
+    margin-left: 140px;
+}
+
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+    top margin-top: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ESTILOS DE MAIN */
+/* main {
+   
+    background-color: rgb(246, 101, 5);
+    width: 100%;
+    height: 110vh;
+    margin-top: 140px;
+}
+
+.tituloMedio {
+   color:  white;
+    margin-left: 45%;
+    margin-top: 140px;
+}
+
+
+.BloquePersonalizado2 {
+    color: white;
+   
+   
+
+    }
+
+  nav ul li a  {
+    text-decoration: none;
+    color: white;
+}
+
+.BloquePersonalizado {
+    background-color: blueviolet; */
+    /* width: 100%;
+    height: 50%;
+    
+    left: 20%;
+    bottom:50%;
+     */
+/* }
+
+.ImagenUno {
+    width: 700px;
+    height: 350px;
+margin-left: 250px;
+}
+
+.VideoUno {
+width: 700px;
+height: 350px;
+margin-top: 60px;
+
+}
+.ImagenDos {
+    margin-left: 650px;
+    margin-top: 80px;
+} */
+
+
+
+
+
+/* ESTILOS DE FOOTER */
+
+/* footer {
+    background-color: rgba(0, 19, 160, 0.83);
+    height: 15vh;
+}
+
+.TituloPrimero {
+    color: white;
+    margin right: ;: 50px;
+}
+
+.TituloSegundo {
+    color: white
+    
+}
+
+.FiguraUno {
+ margin-left: 85%;
+ padding: 5px 10px 0px 5px;
+}
+.FiguraDos {
+padding:5px 10px 0px 5px;
+}
+.FiguraTres {
+padding: 5px 10px 0px 5px;
+}
+.FiguraCuatro {
+    padding: 5px 10px 0px 5px;
+}
+
+
+
+
+
+
+/* ENCONTRANOS EN */
+
+
+
+
+
+/* NOSOTROS */
+
+/* .HistoriaUnos {
+    color: white;
+    margin-left: 130px;
+
+}
+.ContenidoUno {
+    color: white;
+    font-size: x-large;
+    margin-top: 3%;
+    
+}
+.ElectroUno {
+    margin-left: 27%;
+    margin-top: 9%;
+}
+
+/* PRODUCTOS */
+
+.LavarropasUno {
+    margin-left: 200px;
+    margin-top: 100px
+    
+}
+.HeladeraUno {
+margin-left: 200px;
+}
+.SecarropaUno{
+    margin-left: 200px;
+}
+.CaloventorUno{
+    margin-left: 200px;
+}
+.AireUno{
+    margin-left: 200px;
+}
+.FreezerUno{
+    margin-left: 200px;
+    margin-top: 100px;
+} 
+ 
