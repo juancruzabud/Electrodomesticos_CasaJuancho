@@ -34,16 +34,18 @@ header {
     display: grid;
     width: 100%;
     
+    
    
 
   }
  
-  /* .LogoUno:hover {
+   .LogoUno:hover {
     transform: scale(2);
-    transition: transform 5s; */
+    transition: transform 5s; 
+    transform-origin: 10px;
    
     
-    
+}
   
   .ListaUnos {
     display: flex;
